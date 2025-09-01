@@ -3,6 +3,10 @@
 ## Description
 This project implements a Simple Linear Regression model in pure Python (using only NumPy) to predict house prices based on their total area. The goal is to demonstrate understanding of the calculations behind the model, comparing the results with the `scikit-learn` library for validation.
 
+## Download the Dataset
+1. Download on Kaggle: [Link Dataset Kaggle](https://www.kaggle.com/datasets/rishitaverma02/house-prices-advanced-regression-techniques)
+2. Create a folder called: "data", unzip the file.
+
 ## How to Run
 
 1.  **Clone the Repo**
@@ -25,15 +29,20 @@ This project implements a Simple Linear Regression model in pure Python (using o
 ```
 .
 ├── data/
-│   └── train.csv         # Train data
+│   ├── raw/
+│   │   └── train.csv     # Train data
+│   └── processed
+│
 ├── notebooks/
 │   └── Exploration.ipynb # Notebook for analisys
 ├── src/
-│   ├── main.py           # Main script
 │   ├── model.py          # Class of the model
+│   ├── config.py         # General configs
+│   ├── utils.py          # Functions to complement
 │   └── visualization.py  # To generate the graph
 ├── .gitignore            # Files to ignore
-└── README.md             # This file
+├── README.md             # This file
+└── main.py               # Main script
 ```
 
 ## Example
