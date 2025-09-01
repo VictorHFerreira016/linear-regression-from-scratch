@@ -11,4 +11,5 @@ env/
 .vscode/
 .idea/
 
-data/train.csv
+data/raw/train.csv
+images/
